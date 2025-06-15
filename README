@@ -1,0 +1,55 @@
+# Organizador de Archivos
+
+Organizador de Archivos es una aplicación de escritorio en Python con interfaz gráfica (Tkinter) que te permite organizar automáticamente los archivos de una carpeta en subcarpetas según su tipo (imágenes, documentos, música, videos y otros).
+
+## Características
+
+- Organiza archivos en carpetas predefinidas por tipo.
+- Soporta imágenes, documentos, música, videos y otros archivos.
+- Permite seleccionar carpetas comunes de Windows (Escritorio, Descargas, Documentos, etc.) o elegir cualquier carpeta personalizada.
+- Interfaz gráfica sencilla y fácil de usar.
+
+## Tipos de archivos soportados
+
+- **Imágenes:** .jpg, .jpeg, .png, .gif, .bmp
+- **Documentos:** .pdf, .docx, .doc, .txt, .xlsx, .pptx
+- **Música:** .mp3, .wav, .aac
+- **Videos:** .mp4, .avi, .mov, .mkv
+- **Otros:** .zip, .rar, .exe, .iso, .html, .css, .js
+
+## Requisitos
+
+- Python 3.x
+- Tkinter (incluido en la mayoría de instalaciones de Python)
+- Windows (para la selección automática de carpetas comunes)
+
+## Instalación
+
+1. Clona este repositorio o descarga el archivo [`Organizador de archivos.py`](Organizador%20de%20archivos.py).
+2. Asegúrate de tener Python instalado.
+
+## Uso
+
+Ejecuta el script con:
+
+```sh
+python "Organizador de archivos.py"
+```
+
+1. Selecciona la carpeta que deseas organizar desde la interfaz.
+2. El programa moverá los archivos a subcarpetas según su tipo.
+3. Al finalizar, verás un resumen de la organización.
+
+## Compilación a ejecutable (opcional)
+
+Puedes usar PyInstaller para crear un ejecutable:
+
+```sh
+pyinstaller --onefile --windowed "Organizador de archivos.py"
+```
+
+El ejecutable se generará en la carpeta `dist/`.
+
+## Licencia
+
+Este proyecto está bajo la
